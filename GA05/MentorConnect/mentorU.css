@@ -1,0 +1,167 @@
+         * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-image:linear-gradient(rgb(224, 197, 197),rgb(116, 113, 113));
+        }
+        
+        header{
+            background-color: #f7f4f4;
+        }
+        
+        header h1{
+            font-style: italic;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
+            color: rgb(236, 25, 25);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+            padding: 10px 0;
+        }
+        
+        nav li {
+            margin: 0 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        
+        .login-section {
+        
+            background-color: #fff;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(23, 23, 216, 0.2);
+        
+        }
+        #mentor{
+            margin-top: 5%;
+          
+            border-radius: 40px;
+            background-image: linear-gradient(rgb(223, 214, 93),rgb(146, 143, 143));
+         
+         
+        }
+        #mentee{
+            margin-top: 5%;
+            /* border-color: #333; */
+            border-radius: 40px;
+            background-image: linear-gradient(rgb(223, 214, 93),rgb(146, 143, 143));
+         
+        }
+        
+        main {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        footer {
+            margin-top: 8%;
+            height: 10px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        footer p {
+            font-size: 14px;
+        }
+        .login-option {
+            cursor: pointer;
+        }
+        /* Styling for the login options */
+        .login-section {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .login-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .login-section form {
+            text-align: left;
+        }
+        
+        .login-section input[type="text"],
+        .login-section input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        .login-section button {
+            width: 100%;
+            padding: 10px;
+            background-color: #233ee8;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .login-section a {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+        }
+        
+        .login-section a:hover {
+            text-decoration: underline;
+            color: #d52727;
+        }
+         
+        .login-section button:hover {
+            color: black;
+        }
+        
+        @keyframes rotate {
+            from {
+                transform: rotateY(0deg);
+            }
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+        #logo-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        
+        #logo-section img {
+            width: 200px; 
+            height: auto; 
+            animation: rotate 5s linear infinite;
+            transform-origin: center center;
+        }
+     
